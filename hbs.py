@@ -6,7 +6,7 @@ import mysql.connector
 import pandas as pd
 import datetime
 global z
-mydb=mysql.connector.connect(host='localhost',user='root', passwd='tiger',database='hotel')
+mydb=mysql.connector.connect(host='localhost',user='root', passwd='1234',database='hotel')
 if mydb.is_connected():
     print('successfully connected to mysql database')
 else:
@@ -223,5 +223,5 @@ runagain()
 
 
 
-hotel management.py
-Displaying hotel management.py.
+#hotel management.py
+#Displaying hotel management.py.
